@@ -4,7 +4,7 @@ const getSleepHours = (day) => {
       return 8;
       break;
     case "tuesday":
-      return 7;
+      return 71;
       break;
     case "wednesday":
       return 8;
@@ -46,7 +46,7 @@ const calculateSleepDept = () => {
   if (actualSleepHours === idealSleepHours) {
     console.log("You got the perfect amount of sleep");
   } else if (actualSleepHours > idealSleepHours) {
-    console.log("You've got more sleep than needed!");
+    console.log(`"You've got more sleep than needed!"`);
   } else if (actualSleepHours < idealSleepHours) {
     console.log(
       `You got ${
@@ -58,5 +58,3 @@ const calculateSleepDept = () => {
   }
 };
 calculateSleepDept();
-
-//console.log(getActualSleepHours());
