@@ -4,7 +4,7 @@ const getSleepHours = (day) => {
       return 8;
       break;
     case "tuesday":
-      return 71;
+      return 8;
       break;
     case "wednesday":
       return 8;
